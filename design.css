@@ -1,0 +1,59 @@
+ .item {
+      margin-bottom: 10px;
+    }
+    .heart-button {
+      color: gray;
+      cursor: pointer;
+      background-color:transparent;
+      border-color: transparent;
+    }
+    .heart-button.clicked {
+      color: #FDC65B;
+      
+    }
+    
+    .Supprimer{
+      color:#6D4B6D;
+      background-color: #FDC65B;
+    }
+    body{
+      
+        background-image: url('P6.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+     
+    }
+    .divmere{
+      display: flex;
+     
+      justify-content: space-between;
+    }
+    .titre{
+      color: #6D4B6D;
+      font-size: 50px;
+    margin-top: 70px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nomdarticle{
+      color: #c4860c;
+    }
+    .toto{
+      
+      color: #290729;
+      font-size: 40px;
+    }
+    
+     
+    .entete{
+     justify-content: flex-end;
+    }
+    
+    header{
+      display: flex;
+      justify-content: space-between;
+      justify-content: center;
+     }
+     .logo{
+      background-color: #6D4B6D;
+    }

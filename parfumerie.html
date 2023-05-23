@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PARFUMERIE</title>
+  <link rel="stylesheet" href="design.css"/>
+  <header>
+  
+    <img class="logo" src="adeve-removebg-preview.png" alt="" height="200px" >
+<h1 class="titre">MAISON DE  PARFUMERIE !</h1>
+
+</header>
+
+</head>
+
+
+<body>
+ <center> 
+<div class="divmere">
+  
+  <div class="item">
+    <h2 class="nomdarticle">N°2982</h2><img src="P2.png" alt="" height="200px">
+    <p>Prix: <span class="price">5000F</span></p>
+    <button onclick="adjustQuantity(this.parentNode, -1)">-</button>
+    <span class="quantity">0</span>
+    <button class="Plus-button" onclick="adjustQuantity(this.parentNode, 1)">+</button>
+    <button class="heart-button" onclick="toggleHeartColor(this)">&#10084;LIKE</button>
+    <button class="Supprimer" onclick="removeItem(this.parentNode)">Supprimer</button>
+
+  </div>
+
+  <div class="item">
+    <h2 class="nomdarticle">N°19038</h2>
+    <img src="P4.jpg" alt="" height="200px">
+    <p>Prix: <span class="price">10000F</span></p>
+    <button onclick="adjustQuantity(this.parentNode, -1)">-</button>
+    <span class="quantity">0</span>
+    <button onclick="adjustQuantity(this.parentNode, 1)">+</button>
+    <button class="heart-button" onclick="toggleHeartColor(this)">&#10084; LIKE;</button>
+    <button class="Supprimer" onclick="removeItem(this.parentNode)">Supprimer</button>
+    <h2 class="toto">Prix total: <span id="total">0Fcfa</span></h2>
+
+  </div>
+
+  <div class="item">
+    <h2 class="nomdarticle">N°82309</h2>
+    <img src="P3.png" alt="" height="200px">
+    <p>Prix:<span class="price">15000F</span></p>
+    <button onclick="adjustQuantity(this.parentNode, -1)">-</button>
+    <span class="quantity">0</span>
+    <button onclick="adjustQuantity(this.parentNode, 1)">+</button>
+    <button class="heart-button" onclick="toggleHeartColor(this)">&#10084;LIKE</button>
+    <button class="Supprimer" onclick="removeItem(this.parentNode)">Supprimer</button>
+
+  </div>
+
+  </div>
+ </center>
+</body>
+
+
+  <script src="script.java"></script>
+  <script>
+  
+ 
